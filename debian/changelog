@@ -1,0 +1,23 @@
+libnginx-mod-http-headers-more-filter (1:0.34-3) unstable; urgency=medium
+
+  * d/t/generic rework. The test now checks module after
+    installation/reload/restart.
+  * d/control: bump Standards-Version: 4.6.2, no changes
+  * d/gbb.conf: switched to debian branch main (debian-branch = main)
+  * d/copyright: bump my copyright year
+  * d/copyright: reformat text to be compatible with 'cme update dpkg-copyright'
+  * NEW ABI: rebuild with nginx-abi-1.22.1-7
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Mon, 13 Feb 2023 12:56:26 +0100
+
+libnginx-mod-http-headers-more-filter (1:0.34-2) unstable; urgency=medium
+
+  * d/control: added Multi-Arch: foreign
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Fri, 09 Dec 2022 12:50:28 +0100
+
+libnginx-mod-http-headers-more-filter (1:0.34-1) experimental; urgency=medium
+
+  * Initial release. (Closes: 1024151)
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Wed, 30 Nov 2022 14:46:53 +0100
