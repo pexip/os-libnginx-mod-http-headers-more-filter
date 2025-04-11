@@ -1,3 +1,52 @@
+libnginx-mod-http-headers-more-filter (1:0.38-2) unstable; urgency=medium
+
+  * d/control: bump Standards-Version: 4.7.2, no changes
+
+ -- Jan Mojžíš <janmojzis@debian.org>  Fri, 11 Apr 2025 14:26:59 +0200
+
+libnginx-mod-http-headers-more-filter (1:0.38-1) unstable; urgency=medium
+
+  * New upstream version 0.38
+  * d/{control,copyright}: update my email to "janmojzis@debian.org"
+  * d/copyright: bump debian/* copyright year
+  * d/watch: use more generic template
+  * d/control: bump Standards-Version: 4.7.0, no changes
+
+ -- Jan Mojžíš <janmojzis@debian.org>  Mon, 10 Feb 2025 19:20:06 +0100
+
+libnginx-mod-http-headers-more-filter (1:0.37-2) unstable; urgency=medium
+
+  * d/watch: use new recommended github template
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Sat, 13 Jan 2024 22:22:57 +0100
+
+libnginx-mod-http-headers-more-filter (1:0.37-1) unstable; urgency=medium
+
+  * New upstream version 0.37
+  * d/gbp.conf: add [pull] track-missing = True
+  * d/copyright: bump my copyright year
+  * d/watch: remove filenamemangle
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Sun, 07 Jan 2024 23:40:37 +0100
+
+libnginx-mod-http-headers-more-filter (1:0.36-1) unstable; urgency=medium
+
+  * New upstream version 0.36
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Mon, 18 Dec 2023 16:55:54 +0100
+
+libnginx-mod-http-headers-more-filter (1:0.34-5) unstable; urgency=medium
+
+  * d/control: remove Build-Depends nginx-abi-1.24.0-1
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Sat, 07 Oct 2023 15:31:27 +0200
+
+libnginx-mod-http-headers-more-filter (1:0.34-4) unstable; urgency=medium
+
+  * NEW ABI: rebuild with nginx-abi-1.24.0-1
+
+ -- Jan Mojžíš <jan.mojzis@gmail.com>  Tue, 27 Jun 2023 23:16:38 +0200
+
 libnginx-mod-http-headers-more-filter (1:0.34-3) unstable; urgency=medium
 
   * d/t/generic rework. The test now checks module after
