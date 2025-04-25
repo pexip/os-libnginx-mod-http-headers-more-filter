@@ -16,7 +16,7 @@ License: BSD-2-clause
 
 Files: debian/*
 Copyright: 2022, Miao Wang <shankerwangmiao@gmail.com>
- 2022, 2023, Jan Mojzis <jan.mojzis@gmail.com>
+ 2022-2025, Jan Mojzis <janmojzis@debian.org>
 License: BSD-2-clause
 
 Files: src/*

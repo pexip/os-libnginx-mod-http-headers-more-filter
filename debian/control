@@ -3,11 +3,10 @@ Section: httpd
 Priority: optional
 Maintainer: Pexip AS <packaging@pexip.com>
 XSBC-Pexip-Original-Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-XSBC-Pexip-Original-Uploaders: Jan Mojžíš <jan.mojzis@gmail.com>,
+XSBC-Pexip-Original-Uploaders: Jan Mojžíš <janmojzis@debian.org>,
 Build-Depends: debhelper-compat (= 13),
                dh-sequence-nginx,
-               nginx-abi-1.22.1-7,
-Standards-Version: 4.6.2
+Standards-Version: 4.7.2
 Homepage: https://github.com/openresty/headers-more-nginx-module
 Vcs-Git: https://salsa.debian.org/nginx-team/libnginx-mod-http-headers-more-filter.git
 Vcs-Browser: https://salsa.debian.org/nginx-team/libnginx-mod-http-headers-more-filter
