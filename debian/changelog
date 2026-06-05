@@ -1,3 +1,9 @@
+libnginx-mod-http-headers-more-filter (1:0.38-2+pexip25u3) pexip-trixie; urgency=medium
+
+  * Rebuild against newer nginx
+
+ -- Huw Jones <huw@pexip.com>  Fri, 05 Jun 2026 18:41:10 +0100
+
 libnginx-mod-http-headers-more-filter (1:0.38-2+pexip25u2) pexip-trixie; urgency=medium
 
   * Trixie build for product distribution
